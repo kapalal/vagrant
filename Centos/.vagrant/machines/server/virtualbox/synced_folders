@@ -1,1 +1,1 @@
-{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"/home/nkapalala/vagrant/Centos","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"/Volumes/BABY MILo/INFO/VagrantVMs/vagrant/Centos","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
