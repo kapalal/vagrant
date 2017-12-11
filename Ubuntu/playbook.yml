@@ -4,9 +4,8 @@
   hosts: web01
   connection: local
   become: yes
-  tasks:
-    - name: Update cache
-      apt: update_cache=yes
+  roles:
+    - general
+    - apache2
+  
 
-    - name: Install Apache2
-      apt: name=apache2 state=present 
