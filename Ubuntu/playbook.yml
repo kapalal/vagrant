@@ -1,0 +1,12 @@
+---
+
+- name: Installing WebServer
+  hosts: web01
+  connection: local
+  become: yes
+  tasks:
+    - name: Update cache
+      apt: update_cache=yes
+
+    - name: Install Apache2
+      apt: name=apache2 state=present 
