@@ -1,3 +1,3 @@
-# vagrant
-Vagrant-Ansible Lab Configuration
+# Vagrant-Ansible LAB
+Vagrant-Ansible Lab Configurations
 
