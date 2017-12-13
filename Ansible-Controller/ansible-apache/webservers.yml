@@ -1,0 +1,9 @@
+---
+
+- name: Installing WebServer
+  hosts: apache
+  become: yes
+  roles:
+    - apache2
+    - apache2-ports 
+
