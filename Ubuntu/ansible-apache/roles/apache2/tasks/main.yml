@@ -1,0 +1,4 @@
+---
+
+ - name: Install Apache2
+   apt: name=apache2 state=latest force=yes update_cache=yes 

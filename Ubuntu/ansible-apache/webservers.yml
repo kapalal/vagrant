@@ -2,10 +2,10 @@
 
 - name: Installing WebServer
   hosts: web01
-  connection: local
   become: yes
+  connection: local
   roles:
-    - general
     - apache2
+    - apache2-mod
   
 
