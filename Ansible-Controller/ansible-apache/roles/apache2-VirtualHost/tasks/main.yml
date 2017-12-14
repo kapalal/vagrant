@@ -1,0 +1,14 @@
+---
+ - name: Create /var/www/{{ domain }}
+   command: mkdir -p /var/www/{{ domain }}
+
+ - name: Activate VirtualHost
+   template: src=/vagrant_data/ansible-apache/roles/apache2-VirtualHost/templates/virtualhost.conf.j2 dest=/etc/apache2/sites-available/{{ domain }}.conf
+ 
+ - name: a2ensite {{ domain }}
+   command: a2ensite {{ domain }}
+   args:
+     creates: /etc/apache2/sites-enabled/{{ domain }}.conf
+   notify:
+   - restart apache2
+ 

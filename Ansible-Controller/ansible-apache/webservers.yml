@@ -5,5 +5,7 @@
   become: yes
   roles:
     - apache2
-    - apache2-ports 
+    - apache2-mod
+    - apache2-ports
+    - apache2-VirtualHost 
 
