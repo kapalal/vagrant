@@ -1,0 +1,4 @@
+---
+- name: Install NGINX Webserver
+  apt: name=nginx state=latest force=yes update_cache=yes 
+

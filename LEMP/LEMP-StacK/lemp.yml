@@ -1,0 +1,6 @@
+---
+- name: Installing LEMP Stack
+  hosts: apache
+  become: yes
+  roles:
+    - NGINX

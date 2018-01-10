@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "nextest-182714",
+  "private_key_id": "85a34d05c0e42464080c4bac0906af049d818d26",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDE/2VBA3pcp+XG\n6uQ5PTB6t/NN6+zmij90CnUR7XeaxFNsUKpA6Rrxul2VKtuQuKtpH3m+ZCj6hMsZ\nUp1mozk5Tt7s2mLvAJMWOxOXthLDUUcLKEsibfDgK7z4869n04Kq5O63p5XksgGz\n0UHdMpGUHcTPrht8JkpTwGm9G9K6JAylqGlV3t2SzL7Vswjh7/mWvrNgOkKbFVpR\nj84juFo6GfiO3VVsPSCPMM2DU4FEye9KYl2EV7mtbmuV3mU2vb39ZXM2gWrHDUrj\nNMc+REwKKM3LzYIAx6bBgKB1hdRJCqC0N2DdvcJ/hiGKlt93M0GbH2/GMZ5EmsMz\n0InM8KwtAgMBAAECggEAKc0AnP5CL1mAEAilE0E44X1ZbwIeA2A37SVP6JUxMSGy\nCvSF396mtT7En0OYEfohgx2m7V+e82OMngux8wa0/IRQGMWRQyIl08yG0IUVr6S2\nNLeg08Ys28BkKZY5tMgEfMM1pTo1+/BKnK+NMITLr7huW9wXoG0WjfVw6mv2N8FR\nrp08Enodv2eLKPeVIcdmNU0RZIK8Zc63O5tx/GqVtiGvNfbyoUxgfdZG+0Eim4oL\n7fEqKFYK2CDskB/cSfXxf8omFcznMBtpH/3NhrpHDOfGw9HEnkpa0zW1IYUnbTv0\nSjzV2+2kgNVflLV2+SpfDvqk7qaf25Gc7wKQ3Mz3kQKBgQDjqRBaazoFCWxXv82t\neU56s+RHSxQ6qNqhnZBdmyi65G9nriNT32943Xzfbueav6ck8QDSqrOtjquNwve5\nNP2pB32xpv1tQF2Tl8AZmFZlICqROAN0c24+hHQorqTdxKK2PV7jnL7NM0UT2Zgp\nTOWt1qJHxdT93lEdbsjfQ0DY8QKBgQDdhTCxZk2HIuSZ3dTcXJO1Ij1On0ctmK1A\nlUd1W/DhHE5Hq/fV43kE3NppqKJ8VEaOGMOEjeSyRsu6FiQsXxRhyUPv0sXmOrcc\ntQJ394yWQ/czhd3q2aHKCPgVNgEEwjUDu01BdhQGIPQvCHzJayywpj5pLXenyFkq\nkLKjLA6m/QKBgG8RGxZRu7ObXk0NGSXpyZzZSKRzf4ICwO8Z9MWGHf/X1HYLodaY\nakTYIcTL0ZhQqhW+sj0U5KXmtdFqbfrgXGRrcCoMoxT60uxfm2uhQ30AjWPdpOna\nKs27RwRV977t4Mfx9uoqnXd07N17Sd3UUzVVQkSrwna8UGyAkOVDZU6xAoGBANtr\n1rOh9iFpeq6+gN5WBSliZP+/3a1YkiRquYGSNKOGejOcL715uKIMcXw/QdONVuXh\nualPM70zSxFkZShedb32soiXateGSWLyGSPj3Snq4K30Z8D9GbkZ8UJxX8jq5cBw\ngzHYWDVJ5xW/fnu04WuJAEEGfIOBfHEhKxFdzpWxAoGBALMl6MOT7dUftSw70r6J\nei/eZh/JlUcYcRl+hD/Xea76ugLeOcK0+0Wp0cyqQbopAWU0WP7qr8p1WAIHgOTf\ndNyNYd9f5nDqNoR6JL/H6rhVMoeb7J7bhVQpGkE4FFAsIpDNg/OY8ZE32AXRpGu7\njqm/jYsT4ki4/J0p+rZ9pg0N\n-----END PRIVATE KEY-----\n",
+  "client_email": "ansible@nextest-182714.iam.gserviceaccount.com",
+  "client_id": "110542262759058304325",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ansible%40nextest-182714.iam.gserviceaccount.com"
+}
