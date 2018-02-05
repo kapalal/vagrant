@@ -1,0 +1,8 @@
+---
+
+- name: Install MariaDb
+  hosts: db
+  gather_facts: yes
+  become: yes
+  roles:
+    - InstallDB_MariaDb_Debian

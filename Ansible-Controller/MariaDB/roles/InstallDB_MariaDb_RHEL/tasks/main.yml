@@ -1,0 +1,8 @@
+---
+
+
+ - name: Install MariaDB
+   yum: name=mariadb-server state=latest update_cache=yes 
+
+ - name: Start mysql service
+   command: systemctl start mariadb.service

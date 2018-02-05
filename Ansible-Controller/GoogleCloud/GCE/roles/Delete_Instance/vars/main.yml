@@ -1,0 +1,9 @@
+---
+
+service_account_email: ansible@nexlab-192309.iam.gserviceaccount.com
+credentials_file: /vagrant_data/GoogleCloud/GCE/nexlab-da5f274064a7.json
+project_id: nexlab-192309
+machine_type: n1-standard-1
+image: ubuntu-1710-artful-v20180126
+instance_name: ubuntumysql
+zone: europe-west3-a

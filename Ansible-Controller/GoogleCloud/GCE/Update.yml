@@ -1,0 +1,10 @@
+---
+
+- name: Update and Upgrade System
+  hosts: "{{ instance_name }}"
+  connection: local
+  gather_facts: no
+  become: yes
+  roles: 
+   # - Update_Upgrade_Deb
+    - Dist_Upgrade

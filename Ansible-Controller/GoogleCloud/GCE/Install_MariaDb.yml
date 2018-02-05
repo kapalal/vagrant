@@ -1,0 +1,9 @@
+---
+
+- name: Install MariaDb
+  hosts: vagrant
+  gather_facts: yes
+  become: yes
+  roles: 
+    - Install_MariaDb_Apt 
+

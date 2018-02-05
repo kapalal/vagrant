@@ -1,0 +1,4 @@
+[db]
+ubuntubox ansible_host=192.168.7.22
+ubuntubox2 ansible_host=192.168.6.20 ansible_ssh_user=ubuntu
+ubuntubox3 ansible_host=192.168.6.21
