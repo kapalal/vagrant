@@ -32,13 +32,13 @@
  - name: Secure the root user for IPV6 localhost (::1)
    mysql_user:  user=root password="{{ root_password }}" host="::1"
 
- - name: Secure the root user for localhost domain
+ - name: Secure the root user for  IPV4 localhost (127.0.0.1)
    mysql_user:  user=root password="{{ root_password }}" host="127.0.0.1"
 
  - name: Secure the root user for localhost domain
    mysql_user:  user=root password="{{ root_password }}" host="localhost"
 
- - name: Secure the root user for localhost domain
+ - name: Secure the root user for server_hostname domain 
    mysql_user:  user=root password="{{ root_password }}" host="{{ ansible_fqdn }}"
 
  

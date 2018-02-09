@@ -1,8 +1,0 @@
----
-
-
- - name: Install MariaDB
-   action: apt pkg=mariadb-server state=latest
-
- - name: Start mysql service
-   command: systemctl start mariadb.service

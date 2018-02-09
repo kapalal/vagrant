@@ -1,0 +1,27 @@
+---
+
+
+ - name: Install MariaDB
+   yum: name=mariadb-server state=latest update_cache=yes 
+   when: ansible_os_family == "RedHat"
+
+ - name: Start mysql service
+   command: systemctl start mariadb.service
+   when: ansible_os_family == "RedHat"
+
+
+ - name: Apt Update
+   apt: 
+    update_cache: yes
+   when: ansible_os_family == "Debian"
+
+ - name: Install MariaDB
+   action: apt pkg=mariadb-server state=latest
+   when: ansible_os_family == "Debian"
+
+ - name: Start mysql service
+   command: service mysql status
+   when: ansible_os_family == "Debian"
+
+
+  
