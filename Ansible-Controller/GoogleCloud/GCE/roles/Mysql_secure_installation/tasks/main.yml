@@ -1,0 +1,11 @@
+---
+
+ - name: Apt Update
+   apt: 
+    update_cache: yes
+
+
+ - name: Apt Upgrade   
+   apt: 
+    upgrade: full 
+    state: latest

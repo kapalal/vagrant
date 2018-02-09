@@ -1,8 +1,8 @@
 ---
 
 - name: Install MariaDb
-  hosts: db
+  hosts: rhel
   gather_facts: yes
   become: yes
   roles:
-    - InstallDB_MariaDb_Debian
+    - InstallDB_MariaDb_RHEL

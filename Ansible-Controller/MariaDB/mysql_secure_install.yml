@@ -1,0 +1,8 @@
+---
+
+- name: Mysql Secure Installation
+  hosts: rhel
+  gather_facts: yes
+  become: yes
+  roles:
+    - Mysql_secure_installation

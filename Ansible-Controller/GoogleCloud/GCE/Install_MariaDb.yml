@@ -1,7 +1,7 @@
 ---
 
 - name: Install MariaDb
-  hosts: vagrant
+  hosts: cloud
   gather_facts: yes
   become: yes
   roles: 

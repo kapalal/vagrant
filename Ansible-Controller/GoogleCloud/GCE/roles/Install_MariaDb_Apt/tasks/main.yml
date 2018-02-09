@@ -1,8 +1,5 @@
 ---
 
- - name:  Update
-   yum: 
-    update_cache: yes
 
  - name: Install MariaDB
    action: apt pkg=mariadb-server state=latest
