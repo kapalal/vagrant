@@ -1,0 +1,49 @@
+---
+ - name: Restart Database
+   service:
+    name: mariadb        
+    state: restarted
+
+
+ - name: Mysql dump
+   shell: mysqldump -uroot -ptest --all-databases > /opt/bakup.sql
+
+
+ - name: Stop Database
+   service:
+    name: mariadb        
+    state: stopped
+    
+ - name: Remove old MariaDb version
+   yum:
+    name: mariadb, mariadb-server, mariadb-libs
+    state: absent
+
+ - name: Add MariaDB repo 
+   yum_repository:
+     name: MariaDB 
+     gpgkey: https://yum.mariadb.org/RPM-GPG-KEY-MariaDB  
+     baseurl: http://yum.mariadb.org/10.2/centos7-amd64 
+     description: Maria Db
+     state: present 
+
+
+
+ - name: Yum Clean 
+   shell: yum clean all
+
+
+ - name: Install new MariaDb
+   yum:
+    name: MariaDB-client, MariaDB-server 
+    
+
+ - name: Enable and start MariaDB service to automatically start on server boot
+   service:
+     name: mariadb 
+     pattern: undefined 
+     enabled: yes 
+     state: started 
+
+ - name: Run mysql_upgrade
+   shell: mysql_upgrade

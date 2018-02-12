@@ -4,6 +4,6 @@ ubuntubox2 ansible_host=192.168.6.20 ansible_ssh_user=ubuntu
 ubuntubox3 ansible_host=192.168.6.21
 
 [db]
-centobox ansible_host=192.168.7.21
+#centobox ansible_host=192.168.7.21
 nginx-centobox ansible_host=192.168.7.23
 nginx-ubuntubox ansible_host=192.168.5.20
