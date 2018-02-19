@@ -5,4 +5,4 @@
   gather_facts: yes
   become: yes
   roles:
-    - Upgrade_MariaDB
+    - Upgrade_MariaDB_RHEL
