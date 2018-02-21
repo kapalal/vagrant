@@ -707,3 +707,85 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJyvk3yPXZleyoUdf54XlV9MUd4RYFhbIDFe6mMilM
 [   81.115326] cloud-init[1410]: Cloud-init v. 17.1 running 'modules:final' at Mon, 19 Feb 2018 13:55:30 +0000. Up 79.45 seconds.
 [   81.115551] cloud-init[1410]: ci-info: no authorized ssh keys fingerprints found for user ubuntu.
 [   81.115696] cloud-init[1410]: Cloud-init v. 17.1 finished at Mon, 19 Feb 2018 13:55:31 +0000. Datasource DataSourceNoCloud [seed=/dev/sdb][dsmode=net].  Up 81.07 seconds
+         Stoppinge[  OK  ] Unmounted /var/lib/lxcfs.
+[  OK  ] Stopped Deferred execution scheduler.
+[  OK  ] Stopped Regular background program processing daemon.
+[  OK  ] Stopped Accounts Service.
+[  OK  ] Stopped ACPI event daemon.
+[  OK  ] Stopped Snappy daemon.
+[  OK  ] Stopped System Logging Service.
+[  OK  ] Stopped Authenticate and Authorize Users to Run Privileged Tasks.
+[  OK  ] Stopped Getty on tty1.
+[  OK  ] Stopped Serial Getty on ttyS0.
+[  OK  ] Stopped OpenBSD Secure Shell server.
+[  OK  ] Stopped User Manager for UID 1000.
+[  OK  ] Stopped Session 52 of user ubuntu.
+[  OK  ] Stopped Unattended Upgrades Shutdown.
+[  OK  ] Stopped D-Bus System Message Bus.
+[  OK  ] Stopped FUSE filesystem for LXC.
+[  OK  ] Stopped LSB: daemon to balance interrupts for SMP systems.
+[  OK  ] Stopped LXD - container startup/shutdown.
+[  OK  ] Stopped LSB: automatic crash report generation.
+[  OK  ] Stopped LSB: Set the CPU Frequency Scaling governor to "ondemand".
+[  OK  ] Stopped LSB: VirtualBox Linux Additions.
+[  OK  ] Stopped LSB: MD monitoring daemon.
+[  OK  ] Stopped LSB: Record successful boot for GRUB.
+[  OK  ] Removed slice User Slice of ubuntu.
+         Stopping Login Service...
+[  OK  ] Removed slice system-serial\x2dgetty.slice.
+[  OK  ] Stopped /etc/rc.local Compatibility.
+[  OK  ] Removed slice system-getty.slice.
+         Stopping Permit User Sessions...
+[  OK  ] Stopped Login Service.
+[  OK  ] Stopped Permit User Sessions.
+[  OK  ] Stopped target Remote File Systems.
+[  OK  ] Stopped target Remote File Systems (Pre).
+         Stopping Login to default iSCSI targets...
+[  OK  ] Stopped target User and Group Name Lookups.
+[  OK  ] Stopped target Basic System.
+[  OK  ] Stopped target Slices.
+[  OK  ] Removed slice User and Session Slice.
+[  OK  ] Stopped target Sockets.
+[  OK  ] Closed Socket activation for snappy daemon.
+[  OK  ] Closed Syslog Socket.
+[  OK  ] Closed UUID daemon activation socket.
+[  OK  ] Closed LXD - unix socket.
+[  OK  ] Closed D-Bus System Message Bus Socket.
+[  OK  ] Closed ACPID Listen Socket.
+[  OK  ] Stopped target Paths.
+[  OK  ] Stopped Forward Password Requests to Wall Directory Watch.
+[  OK  ] Stopped Dispatch Password Requests to Console Directory Watch.
+[  OK  ] Stopped ACPI Events Check.
+[  OK  ] Stopped target System Initialization.
+         Stopping Update UTMP about System Boot/Shutdown...
+         Stopping Load/Save Random Seed...
+[  OK  ] Stopped target Encrypted Volumes.
+[  OK  ] Stopped Commit a transient machine-id on disk.
+[  OK  ] Stopped target Swap.
+[  OK  ] Stopped Load/Save Random Seed.
+[  OK  ] Stopped Update UTMP about System Boot/Shutdown.
+[  OK  ] Stopped Login to default iSCSI targets.
+         Stopping iSCSI initiator daemon (iscsid)...
+[  OK  ] Stopped Create Volatile Files and Directories.
+[  OK  ] Stopped iSCSI initiator daemon (iscsid).
+[  OK  ] Stopped target Network is Online.
+[  OK  ] Stopped Initial cloud-init job (metadata service crawler).
+[  OK  ] Stopped target Network.
+         Stopping Raise network interfaces...
+[  OK  ] Stopped Raise network interfaces.
+[  OK  ] Stopped Apply Kernel Variables.
+[  OK  ] Stopped Load Kernel Modules.
+[  OK  ] Stopped target Network (Pre).
+[  OK  ] Stopped Initial cloud-init job (pre-networking).
+[  OK  ] Stopped target Local File Systems.
+         Unmounting /run/user/1000...
+         Unmounting /vagrant_data...
+[  OK  ] Unmounted /run/user/1000.
+[  OK  ] Unmounted /vagrant_data.
+[  OK  ] Reached target Unmount All Filesystems.
+[  OK  ] Stopped target Local File Systems (Pre).
+         Stopping Monitoring of LVM2 mirrors... dmeventd or progress polling...
+[  OK  ] Stopped Remount Root and Kernel File Systems.
+[  OK  ] Stopped Create Static Device Nodes in /dev.
+[  OK  ] Reached target Shutdown.
+[159410.173754] rebot:ower down

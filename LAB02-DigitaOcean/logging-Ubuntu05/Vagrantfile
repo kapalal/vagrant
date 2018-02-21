@@ -1,0 +1,14 @@
+Vagrant.configure("2") do |config|
+
+  
+
+  config.vm.define "logging" do |logging|
+    logging.vm.hostname = "logging"
+    logging.vm.network "private_network", ip: "192.168.10.17"
+    logging.vm.box = "ubuntu/trusty64"
+    logging.vm.synced_folder ".", "/vagrant_data"
+    logging.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+     end
+   end
+end

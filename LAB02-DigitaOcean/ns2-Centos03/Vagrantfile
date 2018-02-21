@@ -1,0 +1,14 @@
+Vagrant.configure("2") do |config|
+
+  
+
+  config.vm.define "ns2" do |ns2|
+    ns2.vm.hostname = "ns2"
+    ns2.vm.network "private_network", ip: "192.168.10.19"
+    ns2.vm.box = "ubuntu/trusty64"
+    ns2.vm.synced_folder ".", "/vagrant_data"
+    ns2.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+     end
+   end
+end
