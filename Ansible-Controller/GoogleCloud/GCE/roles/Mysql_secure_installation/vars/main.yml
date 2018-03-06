@@ -1,8 +1,3 @@
 ---
 
-service_account_email: ansible@nexlab-192309.iam.gserviceaccount.com
-credentials_file: /vagrant_data/GoogleCloud/GCE/nexlab-da5f274064a7.json
-project_id: nexlab-192309
-instance_name: ubuntumysql
-zone: europe-west3-a
-root_password: test
+root_password: test 

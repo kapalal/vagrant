@@ -1,7 +1,7 @@
 ---
 
 - name: Mysql Secure Installation
-  hosts: db
+  hosts: lab 
   gather_facts: yes
   become: yes
   roles:

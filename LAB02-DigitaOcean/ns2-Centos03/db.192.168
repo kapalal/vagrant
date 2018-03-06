@@ -1,0 +1,22 @@
+
+; BIND reverse data file for local loopback interface
+;
+$TTL    604800
+@       IN      SOA     ns1.eu.nexlab.info. admin.eu.nexlab.info. (
+                              3         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+; name servers - NS records
+        IN      NS      ns1.eu.nexlab.info.
+        IN      NS      ns2.eu.nexlab.info.
+; hosts - PTR records
+12.10     IN      PTR      app1.eu.nexlab.info.    ;  192.168.10.12
+13.10     IN      PTR      app2.eu.nexlab.info.    ;  192.168.10.13
+15.10     IN      PTR      backups1.eu.nexlab.info.;  192.168.10.15
+14.10     IN      PTR      db1.eu.nexlab.info.     ;  192.168.10.14
+11.10     IN      PTR      lb1.eu.nexlab.info.     ;  192.168.10.11
+17.10     IN      PTR      logging.eu.nexlab.info. ;  192.168.10.17
+16.10     IN      PTR      monitoring.eu.nexlab.info.;192.168.10.16

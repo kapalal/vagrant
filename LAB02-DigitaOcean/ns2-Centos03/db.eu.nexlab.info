@@ -1,0 +1,24 @@
+
+; BIND data file for local loopback interface
+;
+$TTL    604800
+@       IN      SOA     ns1.eu.nextest.info. admin.eu.nextest.info. (
+                              3         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+; name servers - NS records
+        IN      NS      ns1.eu.nextest.info.
+        IN      NS      ns2.eu.nextest.info.
+; name servers - A records
+ns1.eu.nextest.info.      IN      A       192.168.10.18
+ns2.eu.nextest.info.      IN      A       192.168.10.19
+; hosts - A records
+app1.eu.nextest.info.     IN      A       192.168.10.12
+app2.eu.nextest.info.     IN      A       192.168.10.13
+backups1.eu.nextest.info. IN      A       192.168.10.15
+db1.eu.nextest.info.      IN      A       192.168.10.14
+lb1.eu.nextest.info.      IN      A       192.168.10.11
+logging.eu.nextest.info.  IN      A       192.168.10.17
+monitoring.eu.nextest.info. IN    A       192.168.10.16

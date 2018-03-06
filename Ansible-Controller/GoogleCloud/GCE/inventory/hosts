@@ -6,3 +6,6 @@ centobox ansible_host=192.168.7.21
 ubuntubox ansible_host=192.168.7.22
 [cloud]
 ubuntumysql ansible_host=35.198.171.57
+
+[lab]
+db1 ansible_host=35.204.237.234 

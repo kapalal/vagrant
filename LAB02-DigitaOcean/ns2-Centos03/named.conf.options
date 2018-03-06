@@ -1,0 +1,23 @@
+acl "trusted" {
+        localhost;#ns1
+        192.168.10.12; #app1
+        192.168.10.13; #app2
+        192.168.10.15; #backups
+        192.168.10.14; #db1
+        192.168.10.11; #lb1
+        192.168.10.17; #logging
+        192.168.10.16; #monitoring
+        192.168.10.19;#ns2
+};
+options {
+        directory "/var/cache/bind";
+        recursion yes;          #enables recursive queries
+        allow-recursion { trusted; };   #allows recursive queries from "trusted" clients
+        listen-on { 192.168.10.18; };
+        allow-transfer { none; };       #disable zone transfer by default
+        forwarders {
+                8.8.8.8;
+        };
+        dnssec-validation auto;
+        auth-nxdomain no;    # conform to RFC1035
+};

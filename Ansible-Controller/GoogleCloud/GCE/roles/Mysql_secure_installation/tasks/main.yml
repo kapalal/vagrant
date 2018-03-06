@@ -10,8 +10,8 @@
 
  
 # We access the db with the default anonymous user and then we set the root account 
- - name: Setting the root password
-   mysql_user: login_user=  login_password= password="{{ root_password }}" user=root host=localhost  
+# - name: Setting the root password
+#   mysql_user: login_user=root  login_password= password="{{ root_password }}" user=root host=localhost  
 
 # We import the my.cnf file to the remote db with our client credentials
  - name: Add root my.cnf
@@ -22,7 +22,7 @@
     group: root
     mode: 644
 
-#from here on same as mysql_secure_installation disable test databases delete anon account and allow root access to the db only from  our localhost 
+#from here on same as mysql_secure_installation disable test databases delete anon account and allow root access to the db only from  our localhost you will be able to access the db with sudo my sql -u -p 
  - name: Delete anonymous MySQL server user
    mysql_user:  user="" state=absent host=localhost
 
