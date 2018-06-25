@@ -1,0 +1,16 @@
+
+Vagrant.configure("2") do |config|
+
+  
+
+  config.vm.define "srv2" do |srv2|
+    srv2.vm.hostname = "srv2-ubuntu"
+    srv2.vm.network "private_network", ip: "192.168.0.42"
+    srv2.vm.network "public_network"
+    srv2.vm.box = "ubuntu/trusty64"
+    srv2.vm.synced_folder ".", "/vagrant_data"
+    srv2.vm.provider "virtualbox" do |vb|
+      vb.memory = "256"
+     end
+   end
+end

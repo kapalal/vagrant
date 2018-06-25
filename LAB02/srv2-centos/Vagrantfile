@@ -1,0 +1,16 @@
+
+Vagrant.configure("2") do |config|
+
+  
+
+  config.vm.define "cento02" do |cento02|
+    cento02.vm.hostname = "srv2-centos"
+    cento02.vm.network "private_network", ip: "192.168.0.45"
+    cento02.vm.network "public_network"
+    cento02.vm.box = "centos/7"
+    cento02.vm.synced_folder ".", "/vagrant_data"
+    cento02.vm.provider "virtualbox" do |vb|
+      vb.memory = "256"
+     end
+   end
+end
