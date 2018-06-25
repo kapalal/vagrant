@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant_data":{"guestpath":"/vagrant_data","hostpath":"/home/nkapalala/vagrant/LAB02/srv1-ubuntu","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/vagrant_data":{"guestpath":"/vagrant_data","hostpath":"/home/nkapalala/vagrant/LAB02/ubuntu-c","disabled":false,"__vagrantfile":true}}}
