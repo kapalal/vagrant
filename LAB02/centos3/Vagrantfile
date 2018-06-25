@@ -4,8 +4,8 @@ Vagrant.configure("2") do |config|
   
 
   config.vm.define "cento03" do |cento03|
-    cento03.vm.hostname = "srv3-centos"
-    cento03.vm.network "private_network", ip: "192.168.0.45"
+    cento03.vm.hostname = "centos3"
+    cento03.vm.network "private_network", ip: "192.168.0.47"
     cento03.vm.network "public_network"
     cento03.vm.box = "centos/7"
     cento03.vm.synced_folder ".", "/vagrant_data"
